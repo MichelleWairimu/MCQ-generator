@@ -15,11 +15,11 @@ from langchain.chains import SequentialChain
 load_dotenv()
 
 #Access the environment variables just loaded
-key = os.getenv("OPENAI_API_KEY")
+#key = os.getenv("OPENAI_API_KEY")
 
       
 llm= ChatOpenAI(
-        openai_api_key=key,
+        openai_api_key='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',
         model_name="gpt-3.5-turbo", 
         temperature=0.7
         )
